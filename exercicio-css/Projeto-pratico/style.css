@@ -146,3 +146,47 @@ a {
     padding: 2rem;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .body{
+        text-align: center;
+    }
+    .section{
+        display: inline-block;
+    } 
+}
+
+@media screen and (max-width: 428px) {
+    .hero {
+        background: linear-gradient(rgba(0,0,0,0.2), var(--color-background));
+        position: relative;
+        min-height: 100vh;
+    }
+    .section{
+        padding: 3.5rem;
+        float: none;
+        display: block;
+    }  
+    .gallery__img-wrapper + .gallery__img-wrapper {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }   
+}
+
+@media screen and (max-width: 375px) {
+
+    .section__img-inline{
+        width: 100%;
+    }
+
+    .gallery__img{
+        height: 14rem;
+        width: 14rem;
+    }
+
+    .gallery__img-wrapper + .gallery__img-wrapper {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+    
+}
