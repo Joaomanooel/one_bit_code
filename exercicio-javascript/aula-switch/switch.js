@@ -1,5 +1,5 @@
 const resultado = prompt("Escolha uma alternativa a seguir: \nA)\nB)\nC)")
-
+ 
 switch(resultado){
     case "A":
         alert("O resultado é A")
